@@ -25,7 +25,7 @@ class Book
   end
   
   def genre=(genre) #setter
-    @genre
+    @genre = genre
   end
   
   def genre
