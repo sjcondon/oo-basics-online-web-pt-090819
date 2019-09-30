@@ -16,8 +16,8 @@ class Book
     @author
   end
   
-  def page_count=(page_count) #setter
-    @page_count
+  def page_count=(num) #setter
+    @page_count = num
   end
   
   def page_count #getter
